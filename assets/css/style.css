@@ -120,7 +120,7 @@ input, textarea, button { font-family: inherit; }
 }
 
 /* ---------- base ---------- */
-html { scroll-behavior: smooth; }
+html { font-size: 125%; scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
@@ -144,7 +144,7 @@ body {
 }
 
 .wrap {
-  max-width: 1180px;
+  max-width: 73.75rem;
   margin-inline: auto;
   padding-inline: clamp(1.25rem, 4vw, 3rem);
 }
@@ -245,7 +245,7 @@ p + p { margin-top: 1em; }
 .nav-desktop {
   display: none;
   align-items: center;
-  gap: 1.8rem;
+  gap: 3.6rem;
   font-family: var(--font-index);
   font-size: 1.25rem;
 }
@@ -329,12 +329,12 @@ p + p { margin-top: 1em; }
 }
 
 .opening__photo {
-  width: clamp(220px, 34vw, 300px);
+  width: clamp(14rem, 36vw, 20rem);
 }
 .opening__photo img {
   display: block;
   width: 100%;
-  height: clamp(220px, 30vw, 290px);
+  height: clamp(14rem, 32vw, 19.25rem);
   object-fit: cover;
   border: var(--bw-lg) solid var(--line);
   border-radius: 22px;
